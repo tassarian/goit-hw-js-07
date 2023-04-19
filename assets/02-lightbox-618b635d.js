@@ -3,4 +3,4 @@ import{g as l}from"./gallery-items-ed16b741.js";/* empty css               */con
        <img class="gallery__image" src="${o}" alt="${e}" />
     </a>
  </li>
- `).join("");t.insertAdjacentHTML("beforeend",i);new SimpleLightbox(".gallery a",{captionsPosition:"bottom",captionsDelay:250,captionsData:"alt",maxZoom:0});
+ `).join("");t.insertAdjacentHTML("beforeend",i);new SimpleLightbox(".gallery a",{captionsPosition:"bottom",captionsDelay:250,captionsData:"alt",scrollZoom:!1});
