@@ -22,5 +22,5 @@ const lightbox = new SimpleLightbox('.gallery a', {
     captionsPosition: 'bottom',
     captionsDelay: 250,
     captionsData: 'alt',
-    maxZoom: 0
+    scrollZoom: false,
     })
